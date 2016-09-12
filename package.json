@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server \"db.json\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhiegoatencio/treinamento.git"
+  },
+  "keywords": [
+    "angularjs",
+    "treinamento"
+  ],
+  "author": "Dhiego Hendrix Atencio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhiegoatencio/treinamento/issues"
+  },
+  "homepage": "https://github.com/dhiegoatencio/treinamento#readme",
+  "devDependencies": {
+    "json-server": "^0.8.20"
+  }
+}
