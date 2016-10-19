@@ -22,5 +22,8 @@
   "homepage": "https://github.com/dhiegoatencio/treinamento#readme",
   "devDependencies": {
     "json-server": "^0.8.20"
+  },
+  "dependencies": {
+    "angular-ui-router": "^0.3.1"
   }
 }
