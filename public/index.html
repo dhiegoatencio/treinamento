@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Lista Telefonica</title>
+	<title>Treinamento Angular</title>
 	<link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.css">
 	<style>
 	  .active { color: red; font-weight: bolder; }
@@ -25,19 +25,51 @@
 		}
 	</style>
 	<script src="lib/angular/angular.js"></script>
-	<script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
 	<script src="app/app.js"></script>
-	<script src="app/app-state.js"></script>
-	<script src="app/lista-telefonica/lista-telefonica-component.js"></script>
 </head>
 
-<body ng-app="app">
+<body>
 
-	<ul class="nav nav-pills">
+<!-- STEP 1 - old times with angular < 1.5-->
+	<!-- 1.1 - without as ctrl -->
+		<div>
+			<div class="jumbotron">
+			  <h3>{{app}}</h3>
+			  <table class="table">
+			    <tr>
+			      <th></th>
+			      <th>Nome</th>
+			      <th>Telefone</th>
+			      <th>Operadora</th>
+			      <th></th>
+			    </tr>
+			    <tr>
+			      <td><input type="checkbox"/></td>
+			      <td><div style="width: 20px; height: 20px;"></div></td>
+			    </tr>
+			  </table>
+			  <hr/>
+
+        <input class="form-control" type="text" placeholder="Nome"/>
+        <input class="form-control" type="text"placeholder="Telefone"/>
+
+			  <button class="btn btn-primary btn-block">Adicionar Contato</button>
+			  <button class="btn btn-danger btn-block">Apagar Contatos</button>
+			</div>
+		</div>
+		<!--<div ng-include="'https://raw.githubusercontent.com/dhiegoatencio/treinamento/master/messages.html'"></div> -->
+
+
+<!-- STEP 2 - Create a component - angular >= 1.5 -->
+	<!-- <lista-telefonica></lista-telefonica> -->
+
+
+<!-- STEP 3 - Create a route with ui-router -->
+	<!-- <ul class="nav nav-pills">
 			<li><a ui-sref="listaTelefonica">Lista Telefonica</a></li>
 	</ul>
+	<ui-view></ui-view> -->
 
-	<ui-view></ui-view>
 
 </body>
 </html>

@@ -1,4 +1,1 @@
-angular.module("app", [
-  'ui.router',
-  'listaTelefonica'
-]);
+angular.module("app", []);

@@ -10,3 +10,26 @@
 4 - Abrir cmd e verificar se o npm / node estão no path corretamente
 
 5 - na pasta do projeto dar o comando "npm run server"
+
+
+
+########## Aula ##########
+
+Angular < 1.5
+
+* View / Controller
+* Controller as
+
+Angular >= 1.5
+
+* Component
+
+######### cool links ########
+
+http://stateofjs.com/2016
+
+https://medium.com/javascript-scene/the-shocking-secret-about-static-types-514d39bf30a3#.uhfbwm9dg
+
+https://toddmotto.com/pure-versus-impure-functions
+
+https://toddmotto.com/stateful-stateless-components
