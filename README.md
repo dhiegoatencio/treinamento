@@ -17,8 +17,12 @@
 
 Angular < 1.5
 
-* View / Controller
+* View / Controller (no app.js)
 * Controller as
+* Component no app.js
+* Component em outro arquivo
+* Ui-router using component
+
 
 Angular >= 1.5
 
