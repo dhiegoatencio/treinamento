@@ -7,6 +7,9 @@
 
 3 - Adicionar variável de ambiente para a pasta
 
+    setx NODE "caminhoDaPasta"
+    setx PATH "%PATH%;%NODE%"
+
 4 - Abrir cmd e verificar se o npm / node estão no path corretamente:
     npm -v
 
