@@ -1,7 +1,7 @@
 # AngularJS Basic
 
 
-1 - Download https://nodejs.org/dist/v4.5.0/win-x64/node_pdb.zip
+1 - Download https://nodejs.org/dist/v4.6.2/node-v4.6.2-win-x64.zip
 
 2 - Extrair o conteúdo
 
