@@ -11,9 +11,11 @@
     setx PATH "%PATH%;%NODE%"
 
 4 - Abrir cmd e verificar se o npm / node estão no path corretamente:
+
     npm -v
 
 5 - na pasta do projeto (treinamento-master) dar o comando?
+
     npm run server
 
 
