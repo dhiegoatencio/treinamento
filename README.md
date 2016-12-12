@@ -7,22 +7,14 @@
 
 3 - Adicionar variável de ambiente para a pasta
 
-4 - Abrir cmd e verificar se o npm / node estão no path corretamente
+4 - Abrir cmd e verificar se o npm / node estão no path corretamente:
+    npm -v
 
-5 - na pasta do projeto dar o comando "npm run server"
+5 - na pasta do projeto (treinamento-master) dar o comando "npm run server"
 
 
 
 ########## Aula ##########
-
-Angular < 1.5
-
-* View / Controller (no app.js)
-* Controller as
-* Component no app.js
-* Component em outro arquivo
-* Ui-router using component
-
 
 Angular >= 1.5
 
